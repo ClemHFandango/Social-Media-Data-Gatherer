@@ -1,0 +1,15 @@
+#SAMPLE INPUT:
+#NEG (W1 OR W2) AND (W3 OR W4)
+#START::%Y-%m-%dT%H:%M:%S.%UZ
+#END::%Y-%m-%dT%H:%M:%S.%UZ <-- You may leave this blank
+#W1::filename1.txt
+#W2::filename2.txt
+#W3::filename3.txt
+#W4::filename4.txt
+
+
+
+W1
+START_TIME::2021-11-01T00:00:00.00Z
+END_TIME::2022-03-07T11:00:00.00Z
+W1::filename1.txt

@@ -1,0 +1,8 @@
+LANGUAGE_CODE::no
+COUNTRY_CODE::no
+START_TIME::2022-04-03T00:00:00.00Z
+END_TIME::
+
+sanksjoner
+ukraina
+nato
