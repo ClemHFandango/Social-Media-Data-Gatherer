@@ -1,4 +1,4 @@
-This script was written by Benedict Treeby and Alexandros Tsakiris and licensed under the GPL.
+This script was written by Benedict Treeby & Alexandros Tsakiris and is licensed under the GPL.
 
 
 # Social Media Data Gatherer
