@@ -18,7 +18,6 @@ The code expects an auth.py file in each of the scrapers sub folders. These file
 
 ## Input Files
 The input files contain special lines such as the example for a KEYWORD search.
-
 ---
 ```
 LANGUAGE_CODE::no
@@ -28,7 +27,6 @@ END_TIME::
 
 sanksjoner
 ```
-
 ---
 Where `LANGUAGE_CODE` and `COUNTRY_CODE` correspond to the a search made on Twitter and CrowdTangle specific for those country codes and Reddit uses langdetect to make sure the results correspond to `LANGUAGE_CODE`. `START_TIME` is the date of the oldest post to be found, END_TIME is the date of the newest post to be found, if empty it is the date of the script's execution.
 
@@ -53,10 +51,13 @@ W4::filename4.txt
 Performs a boolean search on Twitter and CrowdTangle, using the test_boolean.txt file in input/ and
 creates a folder called output/ where a folder named twitter_ct_search/ includes results.csv of the search
 Example:
-`python run.py -o results -s b -i input -q test_boolean.txt -p tc -n twitter_ct_search`
-
-
+```
+python run.py -o results -s b -i input -q test_boolean.txt -p tc -n twitter_ct_search
+```
+---
 Performs a keyword search on Reddit, using text_keyword.txt in input/ and created a folder named out/ instead where the folder test/ includes results.csv
 Example:
-`python run.py -o results -d out -s k -i input -q test_keyword.txt -p r -n test`
+```
+python run.py -o results -d out -s k -i input -q test_keyword.txt -p r -n test
+```
 
